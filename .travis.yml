@@ -14,4 +14,4 @@ install:
  - source activate test_x
 
 script:
-	./run.sh
+ - ./run.sh
