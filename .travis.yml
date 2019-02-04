@@ -6,4 +6,4 @@ services:
 before_install:
  - docker pull yagudinamir/cv
 script:
- - docker run -v `pwd`:/tmp -ti yagudinamir/cv /bin/bash -c "source activate test_x; jupyter nbconvert --to html /tmp/notebooks/seminar_image_processing_intro.ipynb"
+ - docker run -v `pwd`:/tmp -ti yagudinamir/cv /bin/bash -c "source activate test_x; jupyter nbconvert --to html /tmp/notebooks/day1/seminar_image_processing_intro.ipynb"
